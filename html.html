@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>La superbe page de Nono</title>
+  <style>
+    body {
+        background-color: rgb(255, 255, 255);
+        text-align: center; /* centre le texte */
+    }
+    label{
+        font-size: 100px; 
+    }
+    #message {
+        display: none; /* cache le message par défaut */
+    }
+  </style>
+</head>
+<body>
+  <label>Cette page est vouée à tester mon IA préférée</label>
+  <br>
+  <br>
+  <button onclick="document.getElementById('message').style.display = 'block'">Afficher le message</button>
+  <br>
+  <br>
+  <button onclick="document.getElementById('message').style.display = 'none'">Enlever le message</button>
+  <br>
+  <br>
+  <label id="message">Le caoutchouc est mauvais pour la planète</label>
+</body>
+</html>
+
+
